@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background-color: #F6F5F7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: -20px 0px 50px;
+
+
+        }
+
+        .box {
+            width: 100vh;
+            height: 480px;
+            background-color: transparent;
+
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            box-shadow: 1px 15px 25px rgb(0, 0, 0, 0.5);
+
+
+        }
+
+
+
+        .box-left {
+            background-color: white;
+            height: 100%;
+
+            border-radius: 10px 0px 0px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 50px;
+            flex: 1;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        span {
+            font-size: 12px;
+        }
+
+        input[type="textbox"] {
+            background-color: #EEEEEE;
+            border: none;
+            height: 30px;
+            width: 284px;
+            margin: 5px;
+            padding: 12px
+        }
+
+        a {
+            color: #333;
+            font-size: 14px;
+            text-decoration: none;
+            margin: 15px 0;
+        }
+
+        .sign-in {
+            background-color: orangered;
+            border: none;
+            border-radius: 20px;
+            height: 40px;
+            width: 150px;
+            font-weight: bold;
+            font-size: 12px;
+            color: white;
+        }
+
+        .box-right {
+
+            height: 100%;
+            background: linear-gradient(to right, #FF464C, #FF416C);
+            border-radius: 0px 10px 10px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex: 1;
+            padding: 0 50px;
+        }
+
+        .hello {
+            color: white;
+            margin: 10px;
+        }
+
+        .text {
+            color: white;
+            margin: 10px;
+            font-size: 15px;
+        }
+
+        .sign-up {
+            background-color: transparent;
+            border: 1px solid;
+            border-radius: 20px;
+            height: 40px;
+            width: 150px;
+            font-weight: bold;
+            font-size: 12px;
+            color: white;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #222222;
+            color: white;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            bottom: 0;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+
+        <div class="box-left">
+            <h1>Sign in</h1>
+            <span>Use your email</span>
+            <input type="textbox" placeholder="Email">
+            <input type="textbox" placeholder="Password">
+            <a href="#">Forgot your password?</a>
+            <button class="sign-in">SIGH IN</button>
+        </div>
+        <div class="box-right">
+            <h1 class="hello">Hello, Friend!</h1>
+            <span class="text">Enter your personal details and start journey with us</span>
+            <button class="sign-up">SIGH UP</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <footer>Created by Nathaphong Wongsri</footer>
+</body>
+
+</html>
